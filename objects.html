@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <h2>Javascript objects and its properties</h2>
+    <p>There are two different ways to access an objeect property</p>
+    <p>You can use .propert or ["properity]</p>
+    <p id="demo"></p>
+    <script>
+        var person= {
+            name:"Vick",
+            age: 20
+        }
+        document.getElementById("demo").innerHTML= "My name is " +person.name + " and I am " +person.age +" years old"
+
+
+        //built in Math objects
+        var value=Math.abs(20);
+        document.write("The results is "+value +"<br>");
+        var value=Math.acos(-1);
+        document.write("The results is "+value +"<br>");
+        var value=Math.asin(0.5);
+        document.write("The results is "+value +"<br>");
+        var value=Math.atan(0.5);
+        document.write("The result is "+value);
+    </script>
+</body>
+</html>
